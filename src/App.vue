@@ -1,12 +1,42 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+      <div class="row mb-2">
+        <div class="col-md-12">
+          <navbar/> 
+        </div>
+      </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <router-view>
+            
+            </router-view>
+          </div>
+        </div>
+
+      <div class="row m-4">
+        
+      </div>
+
+    
   </div>
+
 </template>
+
+<script>
+import navbar from "@/components/common/navbar"
+
+
+
+
+export default {
+  name:"app",
+  components:{
+    navbar
+    
+  }
+}
+</script>
 
 <style>
 #app {
@@ -17,16 +47,6 @@
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
-}
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>

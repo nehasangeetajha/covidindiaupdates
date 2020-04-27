@@ -4,11 +4,46 @@ import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
-  const routes = [
+const routes = [
   {
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/world',
+    name: 'World',
+    component: () => import(/* webpackChunkName: "about" */ '../views/World.vue')
+  },
+  {
+    path: '/india',
+    name: 'India',
+    component: () => import(/* webpackChunkName: "about" */ '../views/India.vue')
+  },
+  {
+    path: '/testing',
+    name: 'Testing',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Testing.vue')
+  },
+  {
+    path: '/hospitals',
+    name: 'Hospitals',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Hospitals.vue')
+  },
+  {
+    path: '/news',
+    name: 'News',
+    component: () => import(/* webpackChunkName: "about" */ '../views/News.vue')
+  },
+  {
+    path: '/notifications',
+    name: 'Notifications',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Notifications.vue')
+  },
+  {
+    path: '/contacts',
+    name: 'Contacts',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Contacts.vue')
   },
   {
     path: '/about',
