@@ -11,7 +11,7 @@
                 <li class="list-group-item"><a href="https://www.youtube.com/watch?v=u4-geG9b7Yw" target="blank">Know - what is "hotspot"?</a></li>
                 <li class="list-group-item"><a href="https://epaper.hindustantimes.com/Home/ArticleView" target="blank">Read Today's E-Newspaper</a></li>
                 <li class="list-group-item"><a href="https://www.youtube.com/watch?v=yvEfOjAx9Sg" target="blank">Make Face Mask at Home</a></li>
-                <li class="list-group-item"><a href="https://nehasangeetajha.github.io/coronatracker/" target="blank">See Website with visual data</a></li>-->
+                <li class="list-group-item"><a href="https://nehasangeetajha.github.io/coronatracker/" target="blank">See Website with visual data</a></li>
             </ul>
 
             <a href="https://static.mygov.in/rest/s3fs-public/mygov_158694130451307401.pdf" title="Click to view details" target="_blank"><img src="https://www.mygov.in/sites/all/themes/mygov/images/covid/lockdown2_guidline.jpg"></a>
